@@ -1,6 +1,6 @@
 Name:		cpu-g
 Version:	0.9.0
-Release:	alt0.M80P.1
+Release:	alt0.M70T.1
 
 License:	GPLv3
 Group:		System/Kernel and hardware
@@ -47,8 +47,8 @@ ln -s %_datadir/%name/%name $RPM_BUILD_ROOT%_bindir/%name
 %doc doc/cpu-g.1
 
 %changelog
-* Wed Jun 22 2016 Motsyo Gennadi <drool@altlinux.ru> 0.9.0-alt0.M80P.1
-- build for p8
+* Wed Jun 22 2016 Motsyo Gennadi <drool@altlinux.ru> 0.9.0-alt0.M70T.1
+- build for t7
 
 * Thu Mar 31 2016 Motsyo Gennadi <drool@altlinux.ru> 0.9.0-alt1
 - initial build for ALT Linux
