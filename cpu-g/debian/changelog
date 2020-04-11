@@ -1,0 +1,99 @@
+cpu-g (0.16.2-1ubuntu0) cosmic; urgency=medium
+
+  * Fixed for Debian 9 and MATE #4 by @rstephan
+  * Added catalan translation #6 by @marcelcosta
+  * Added basque translation #7 by @xabiliza
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 20 Feb 2019 06:28:12 +0100
+
+cpu-g (0.16.1-1ubuntu0) cosmic; urgency=medium
+
+  * Added spanish translation
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 03 Feb 2019 10:46:50 +0100
+
+cpu-g (0.15.2-1ubuntu0) cosmic; urgency=medium
+
+  * fixed bugs #2, #3
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 01 Feb 2019 20:43:22 +0100
+
+cpu-g (0.15.1-1ubuntu0) zesty; urgency=medium
+
+  * fixed bug zero division #1 by @tonyfarney 
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 26 Sep 2017 13:32:21 +0200
+
+cpu-g (0.15.0-1ubuntu0) xenial; urgency=medium
+
+  * Fixed a bug when no battery in computer
+  * Added more info to battery
+  * Added locale to number
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 23 Oct 2016 11:34:47 +0200
+
+cpu-g (0.14.0-1ubuntu0) xenial; urgency=medium
+
+  * Fixed a bug with Xorg version
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 16 Oct 2016 19:51:21 +0200
+
+cpu-g (0.13.0-1ubuntu0) xenial; urgency=medium
+
+  * Added Disks info
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sat, 01 Oct 2016 08:38:41 +0200
+
+cpu-g (0.12.0-1ubuntu0) xenial; urgency=medium
+
+  * Added Swap info
+  * Changed battery info to use dbus history
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sat, 10 Sep 2016 08:20:27 +0200
+
+cpu-g (0.11.2-1ubuntu0) xenial; urgency=medium
+
+  * Fixed nvidia logo
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Thu, 08 Sep 2016 20:46:34 +0200
+
+cpu-g (0.11.1-1ubuntu3) xenial; urgency=medium
+
+  * Added wmctrl dependecy
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Thu, 08 Sep 2016 07:48:00 +0200
+
+cpu-g (0.11.1-1ubuntu2) xenial; urgency=medium
+
+  * New features,
+  * - System:
+  *   - Added resolution info
+  *   - Added distribution info
+  *   - Added Desktop environment info
+  *   - Added window manager info
+  *   - Added distribution logo
+  * - Battery
+  *   - Monitor battery
+  *   - Added manufacturer info
+  *   - Added model info
+  *   - Added serial number info
+  *   - Added tecnology info
+  *   - Added estimated time remaining
+  *   - Added estimated battery discharge time
+  *   - Added battery level
+  *   - Added graphic to show the evolution of dicharge
+
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 04 Sep 2016 20:37:04 +0200
+
+cpu-g (0.10.0-1ubuntu0) wily; urgency=medium
+
+  * Added graphic card info
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 02 Mar 2016 23:20:00 +0100
+
+cpu-g (0.9.2-1ubuntu0) wily; urgency=medium
+
+  * First release
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 02 Mar 2016 07:52:47 +0100

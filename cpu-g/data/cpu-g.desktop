@@ -3,9 +3,9 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=CPU-G
-TryExec=/usr/bin/cpu-g
-Exec=/usr/bin/cpu-g
-Icon=cpu-g
+TryExec=/opt/extras.ubuntu.com/cpu-g/bin/cpu-g
+Exec=/opt/extras.ubuntu.com/cpu-g/bin/cpu-g
+Icon=/opt/extras.ubuntu.com/cpu-g/share/icons/cpu-g.png
 StartupNotify=true
 Terminal=false
 Type=Application
