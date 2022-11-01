@@ -1,20 +1,21 @@
-Name:		cpu-g
-Version:	0.16.2
-Release:	alt1.1
+Name: cpu-g
+Version: 0.16.2
+Release: alt2
 
-License:	GPLv3
-Group:		System/Kernel and hardware
-Summary:	CPU-G is an application that shows useful information about your hardware
-Url:		https://github.com/atareao/cpu-g
+License: GPLv3
+Group: System/Kernel and hardware
+Summary: CPU-G is an application that shows useful information about your hardware
+Url: https://github.com/atareao/cpu-g
 
-Source0:	%name-%version.tar.gz
-Source1:	%name-uk_UA.po
-Source2:	%name.desktop
+Source0: %name-%version.tar.gz
+Source1: %name-uk_UA.po
+Source2: %name.desktop
 
-Patch0:		%name-patch.patch
-Patch1:		%name-0.16.2-alt_matplotlib.backends.patch
+Patch0: %name-patch.patch
+Patch1: %name-0.16.2-alt_matplotlib.backends.patch
+Patch2: %name-0.16.2-alt_python3.7_compat.patch
 
-Requires:	/usr/bin/glxinfo
+Requires: /usr/bin/glxinfo
 
 BuildArch: noarch
 
@@ -27,8 +28,7 @@ general information about your system and more.
 
 %prep
 %setup -n %name-%version
-%patch0 -p1
-%patch1 -p1
+%autopatch -p1
 cp %SOURCE1 po/uk_UA.po
 
 %install
@@ -66,6 +66,9 @@ convert -resize 16x16 data/icons/cpu-g_192.png %buildroot%_miconsdir/%name.png
 %_miconsdir/%name.png
 
 %changelog
+* Tue Nov 01 2022 Ivan G <lordvivec@mail.ru> 0.16.2-alt2
+- Fix distro call for new Python https://stackoverflow.com/questions/49554443/platform-linux-distribution-deprecated-what-are-the-alternatives
+
 * Tue Apr 14 2020 Motsyo Gennadi <drool@altlinux.ru> 0.16.2-alt1.1
 - fix Requires
 

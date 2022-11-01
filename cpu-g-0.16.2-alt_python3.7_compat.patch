@@ -1,0 +1,24 @@
+diff --git cpu-g/src/investigator.py cpu-g/src/investigator.py
+index 3f299bc..cda7ac4 100644
+--- cpu-g/src/investigator.py
++++ cpu-g/src/investigator.py
+@@ -34,6 +34,7 @@ import sys
+ import platform
+ import subprocess
+ import shlex
++import distro
+ import comun
+ import psutil
+ from comun import _
+@@ -295,9 +296,9 @@ class Investigator():
+ 
+     def distro(self):
+         try:
+-            values = platform.linux_distribution()
++            values = distro.linux_distribution()
+         except AttributeError:
+-            values = platform.dist()
++            values = distro.linux_distribution(full_distribution_name=False)
+         if len(values) == 3:
+             return "%s %s %s" % (values[0], values[1], values[2])
+         return self.readfile('/etc/issue').strip()
